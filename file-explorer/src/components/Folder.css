@@ -1,0 +1,11 @@
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-button {
+  background-color: bisque;
+  border-radius: 20%;
+  border: none;
+  margin: 4px 12px ;
+}
