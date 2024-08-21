@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.label {
+  margin-right: 20px;
+}
+
+.range-input {
+  width: 50%;
+}
+
