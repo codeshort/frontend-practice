@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap : 16px;
+}
+
+.product-container {
+ height: 200px;
+}
+
+.product-img {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin: 16px;
+}
+

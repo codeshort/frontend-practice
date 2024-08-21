@@ -1,0 +1,15 @@
+.sub-buttons {
+  border: 1px solid rgba(211, 144, 95, 0.93);
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  text-align: center;
+  background-color: beige;
+}
+
+.pagination-component {
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  cursor: pointer
+}
