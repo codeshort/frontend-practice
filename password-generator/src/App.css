@@ -1,0 +1,75 @@
+.app {
+  display:flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  border: 1px solid teal;
+  border-radius: 8px;
+  box-shadow: 2px 2px 30px lightblue;
+  padding: 24px;
+  margin: 6px;
+}
+
+.password-details {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.copy-btn {
+  width: 80px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.character-length {
+  width: 50%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.character-length-info {
+  display: flex;
+  justify-content: space-between
+}
+
+.char-slider {
+  width: 100%;
+}
+
+.options-checkbox {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.input-group {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:50px;
+}
+input {
+  margin: 4px;
+}
+
+.generate-btn {
+  width: 90%;
+  height: 42px;
+  border-radius: 16px;
+  background-color: teal;
+  color: white;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
