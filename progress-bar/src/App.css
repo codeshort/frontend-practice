@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 50%;
+  background-color: beige;
+  border-radius: 16px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.percentage {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  background-color: teal;
+  width: 50%;
+}
